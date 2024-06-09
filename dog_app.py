@@ -15,6 +15,7 @@ st.write("You can also try uploading the image of a human to see what happens. H
 uploaded_file = st.sidebar.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 uploaded_image_path = ''
 
+
 # Check if a file was uploaded
 if uploaded_file is not None:
     col1, col2 = st.columns([2, 1])
